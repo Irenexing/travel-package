@@ -1,0 +1,70 @@
+.hero__title {
+    font-size: 2rem;
+}
+.hero__slogan-text {
+    color: #335576;
+    margin-right: 10rem;
+    padding: 1rem 2rem 2rem 0rem;
+}
+.hero {
+    background-size: cover;
+    background-color:#FEFAF5;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem;
+}
+
+.hero__photo {
+    height: 60vh;
+    margin-right: 2rem;
+    margin-top: 4rem;
+}
+
+button {
+    background-color: #DB7A4E;
+    color: #FFFFFF;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    border-color: #DB7A4E;
+    border-style: solid;
+}
+
+.recommendations {
+    padding: 2rem 5rem;
+}
+
+.recommendations__title {
+    color: #335576;
+}
+
+.recommendations__photo {
+    object-fit: cover;
+    min-width: 10rem;
+    max-width: 17rem;  
+    min-height: 20rem;
+    max-height: 25rem;
+    margin: 1rem;
+    border-top: 1.25rem;
+    border-radius: .3125rem;
+    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.20);
+}
+
+.recommendations__place {
+    display: flex;
+    justify-content: center;
+    color:#FFFFFF;
+    position: relative;
+}
+
+.recommendations__container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.recommendations__name {
+    position: absolute;
+    bottom: 1.875rem;
+    right: 1.875rem;
+}
